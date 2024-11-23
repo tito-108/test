@@ -13,10 +13,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background-color: #333; /* Adjust to a darker color for visibility */
     padding: 15px 20px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
+
 
 .logo {
     color: white;
@@ -362,7 +363,17 @@ tr {
     background-color: #e9f5ff;
     padding: 50px 20px;
 }
-
+.background-section {
+  position: relative; /* Needed to position text overlay */
+  background-image: url('../website/back.jpg'); /* Path to your image */
+  background-size: cover; /* Cover the whole section with the image */
+  background-position: center; /* Center the image */
+  height: 700px; /* Set the height you want for the section */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Text color */
+}
 .image-container,
 .text-container {
     width: 500px;
