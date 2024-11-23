@@ -365,7 +365,7 @@ tr {
 }
 .background-section {
   position: relative; /* Needed to position text overlay */
-  background-image: url('../website/back.jpg'); /* Path to your image */
+  background-image: url('./images/back.jpg'); /* Path to your image */
   background-size: cover; /* Cover the whole section with the image */
   background-position: center; /* Center the image */
   height: 700px; /* Set the height you want for the section */
