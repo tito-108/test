@@ -1021,8 +1021,4 @@ header {
     flex: 0 0 100%; /* On very small screens, buttons take up 100% */
   }
 }
-@media screen {
-.container{
-display: flex;
-}
-}
+
