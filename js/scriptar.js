@@ -5,10 +5,10 @@ function showSet(setNumber) {
   if (setNumber === 1) {
       mainImage.src = "../images/flut.jpg";
       mainImage.alt = "فلوت";
-      mainText.textContent = "Medium Fluting";
+      mainText.textContent = "فلوت فاخر";
   } else if (setNumber === 2) {
       mainImage.src = "../images/test.jpg";
       mainImage.alt = "تست";
-      mainText.textContent = "Test Liner";
+      mainText.textContent = "تست معالج";
   }
 }
